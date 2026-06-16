@@ -15,8 +15,9 @@ class DeepArtha:
             system_prompt="you are a helpful assistant."
         )
 
-    def invoke(self, question: str, conversation_id: str):
-        pass
+    def ask(self, question: str):
+        response = self._model.invoke(question)
+        return response.content
     
 def main():
     print("Hello from deep-artha!")
