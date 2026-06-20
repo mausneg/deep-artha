@@ -1,18 +1,18 @@
 ## Roadmap & TODO List (DeepArtha)
 
 Berikut adalah tahapan pengembangan proyek **DeepArtha** yang dibagi menjadi beberapa fase inkremental.
-
-- [ ] **Fase 1: Inisialisasi Proyek & Pintu Masuk (Telegram)**
+,
+- [x] **Fase 1: Inisialisasi Proyek & Pintu Masuk (Telegram)**
   - [x] Buat bot Telegram baru via `@BotFather` dan simpan API Token.
   - [x] Inisialisasi repositori GitHub (`DeepArtha`) dengan struktur folder Python standar.
-  - [ ] Setup script Python dasar (`telebot` atau `python-telegram-bot`) untuk memastikan bot bisa merespons chat masuk.
-  - [ ] Setup *environment variables* (.env) untuk mengamankan seluruh API Key.
+  - [x] Setup script Python dasar (`telebot` atau `python-telegram-bot`) untuk memastikan bot bisa merespons chat masuk.
+  - [x] Setup *environment variables* (.env) untuk mengamankan seluruh API Key.
 
-- [ ] **Fase 2: Infrastruktur Database & Dashboard (Postgres & GSheet)**
-  - [ ] Rancang dan jalankan skema database PostgreSQL (Tabel: `pengeluaran`, `portofolio`, `kategori`).
-  - [ ] Pasang *extension* `pgvector` di Postgres untuk persiapan fitur RAG.
-  - [ ] Buat template Google Sheets murni untuk halaman ringkasan (*Executive Dashboard / Summary*).
-  - [ ] Konfigurasi **MCP (Model Context Protocol) Server** untuk PostgreSQL dan Google Sheets agar bisa diakses oleh LLM.
+- [x] **Fase 2: Infrastruktur Database & Dashboard (Postgres & GSheet)**
+  - [x] Rancang dan jalankan skema database PostgreSQL (Tabel: `pengeluaran`, `portofolio`, `kategori`).
+  - [x] Pasang Qdrant untuk persiapan fitur RAG.
+  - [x] Buat template Google Sheets murni untuk halaman ringkasan (*Executive Dashboard / Summary*).
+  - [x] Konfigurasi **MCP (Model Context Protocol) Server** untuk Google Sheets agar bisa diakses oleh LLM.
 
 - [ ] **Fase 3: Integrasi Data Eksternal & Eksekusi Kode (MCP & E2B)**
   - [ ] Hubungkan **MCP Yahoo Finance** ke dalam project untuk menarik data harga aset secara *real-time*.

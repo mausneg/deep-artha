@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 import telebot
 import os
 
-from main import DeepArtha
+from src.main import DeepArtha
 
 load_dotenv()
 
