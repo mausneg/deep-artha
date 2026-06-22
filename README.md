@@ -15,9 +15,9 @@ Berikut adalah tahapan pengembangan proyek **DeepArtha** yang dibagi menjadi beb
   - [x] Konfigurasi **MCP (Model Context Protocol) Server** untuk Google Sheets agar bisa diakses oleh LLM.
 
 - [ ] **Fase 3: Integrasi Data Eksternal & Eksekusi Kode (MCP & E2B)**
-  - [ ] Hubungkan **MCP Yahoo Finance** ke dalam project untuk menarik data harga aset secara *real-time*.
-  - [ ] Daftarkan API Key di [e2b.dev](https://e2b.dev).
-  - [ ] Implementasikan modul `E2B Code Interpreter Sandbox` di Python untuk menjalankan script kalkulasi keuangan dan *plotting* grafik (`matplotlib`).
+  - [x] Hubungkan **MCP Yahoo Finance** ke dalam project untuk menarik data harga aset secara *real-time*.
+  - [x] Daftarkan API Key di [e2b.dev](https://e2b.dev).
+  - [x] Implementasikan modul `E2B Code Interpreter Sandbox` di Python untuk menjalankan script kalkulasi keuangan dan *plotting* grafik (`matplotlib`).
   - [ ] Uji coba membuat Agent menulis script Python, mengeksekusinya di E2B, dan mengirimkan file `.png` grafik kembali ke Telegram.
 
 - [ ] **Fase 4: RAG Multimodal & Otak Agent (The Brain)**
